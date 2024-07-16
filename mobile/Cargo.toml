@@ -9,7 +9,7 @@ name = "mobile"
 crate-type = ["staticlib", "cdylib"]
 
 [dependencies]
-bevy_game = { path = ".." } # ToDo
+placeholder123 = { path = ".." }
 bevy = { version = "0.14", default-features = false }
 
 # As long as Kira doesn't expose a feature for this, we need to enable it
@@ -19,8 +19,8 @@ version = "0.15"
 features = ["oboe-shared-stdcxx"]
 
 [package.metadata.android]
-package = "me.nikl.bevygame"  # ToDo
-apk_name = "BevyGame"  # ToDo same as GAME_OSX_APP_NAME in release workflow
+package = "me.rofdo.Placeholder123"  # ToDo
+apk_name = "Placeholder123"  # ToDo same as GAME_OSX_APP_NAME in release workflow
 assets = "../assets"
 strip = "strip"
 resources = "../build/android/res"
